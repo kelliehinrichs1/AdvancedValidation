@@ -2,7 +2,7 @@ function validate(){
   //Grab the user's input and store in variables
   var userEntered = document.getElementById("user").value;
   var passEntered = document.getElementById("pass").value;
-  if(userEntered.length < 6 || userEntered.search(" " > 0){
+  if(userEntered.length < 6 || userEntered.search(" ") > 0){
   //Show message that there is an error with the username...
   if(userEntered.length < 6){
     document.getElementById("usernameError").innerHTML="Username must be at least 6 characters.";
